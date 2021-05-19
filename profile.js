@@ -9,7 +9,7 @@ document.getElementById('profile-title').innerText = sessionStorage.getItem('pro
 // Take the user back to the main home page when they click the logo
 
 document.getElementById('nav-image-link').addEventListener('click', e => {
-  window.location.href = "/";
+  window.location.href = "index.html";
 })
 
 // Function to locate and request the current messages from the server
@@ -105,7 +105,7 @@ function decodeAndDisplayDataFromServer(dataFromServer, verifiedOrNot) {
 
     var atElement = document.createElement('a');
     atElement.appendChild(usernameElement);
-    atElement.href = "otherUsersProfile";
+    atElement.href = "otherUsersProfile.html";
     atElement.id = seperatedText[i];
     atElement.addEventListener('click', e => {
       var currentItem = e.target;
