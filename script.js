@@ -36,7 +36,7 @@ if (sessionStorage.getItem('username') != null && sessionStorage.getItem('userna
   document.getElementById('messageFromUser').placeholder = "What is happening " + sessionStorage.getItem('username') + "?";
 }
 else {
-  window.location.href = "login.html";
+  window.location.href = "login";
 }
 
 var interval;
@@ -215,7 +215,7 @@ function decodeAndDisplayDataFromServer(dataFromServer, verifiedOrNot) {
 
     var atElement = document.createElement('a');
     atElement.appendChild(usernameElement);
-    atElement.href = "otherUsersProfile.html";
+    atElement.href = "otherUsersProfile";
     atElement.id = seperatedText[i];
     atElement.addEventListener('click', e => {
       var currentItem = e.target;

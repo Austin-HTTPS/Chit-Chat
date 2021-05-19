@@ -15,7 +15,7 @@
 
   <script src="login.js" defer></script>
 
-  <form action="index.html" method="GET" class="form-container">
+  <form action="/" method="GET" class="form-container">
     <h2>Login</h2>
 
     <h3>Username</h3>
@@ -35,7 +35,7 @@
     <br>
 
     <span>
-      <a href="createAccount.html">Or sign up</a>
+      <a href="createAccount">Or sign up</a>
     </span>
 
   </form>
